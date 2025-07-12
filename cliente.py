@@ -25,7 +25,7 @@ datos = {
 mensaje = json.dumps(datos)
 
 # Parámetros del broker MQTT local (ajusta si usas otro host)
-broker = "192.168.15.20"  # IP del servidor MQTT
+broker = "192.168.15.4"  # IP del servidor MQTT
 puerto = 1883
 topico = "sistema/info"
 
